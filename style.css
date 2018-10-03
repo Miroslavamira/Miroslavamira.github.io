@@ -926,6 +926,26 @@ html, body{
     background-color: rgb(63, 134, 42);
 }
 
+@media only screen and (max-width: 800px){
+
+    
+
+    .main-ajax{
+        width: 350px;
+    }
+
+    .main-ajax .menu-ajax{
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    
+}
+
+
+
+
 
 
 
@@ -1001,25 +1021,117 @@ html, body{
 .more-photo img{
     margin-left: 25px;
     margin-right: 15px;
+    
 }
 
 
 .sibo-sano  .h-sibo{
     display: flex;
     align-items: center;
-    width: 400px;
+    width: 300px;
     
 }
 
 .sibo-sano  .h-sibo h1{
     font-size: 180%;
+    padding-top: 10px;
 }
 
 .text-footer{
     background-color: rgb(217, 228, 199);
+  
 }
 
 .sibo-sano{
     padding: 40px;
 
 }
+
+.sibo-sano .h-sibo{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.sibo-sano .h-sibo img{
+    margin: 10px;
+}
+
+.sibo-sano .h-sibo p{
+    font-size: 90%;
+    padding-top: 10px;
+}
+
+.href-footer{
+    width: 300px;
+    display: flex;
+    align-items: center;
+   padding: 40px;
+}
+
+.main-fot{
+    display: flex;
+    justify-content: space-between;  
+    flex-wrap: wrap; 
+}
+
+.href-footer .text-footer{
+    margin: 30px;
+}
+
+.href-footer .text-footer p{
+    text-align: center;
+}
+
+.email{
+    margin-top: 100px;
+    margin-bottom: 20px;
+   padding: 40px;
+}
+
+.inputi{
+    background-color: #fff;
+    border-radius: 50px;
+    width: 250px;
+    height: 50px;
+    
+}
+
+.email .mess input{
+    border: none;
+    margin-top: 5px;
+    margin-left: 20px;
+    
+}
+
+.crl-email{
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(112, 165, 99);
+    margin-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+.crl-email img{
+    margin-top: 5px;
+}
+
+.email .mess{
+    display: flex;
+   
+    
+}
+
+.fo-footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(51, 51, 51);
+}
+
+.fo-footer p{
+    color: rgb(104, 103, 103);
+    margin-left: 60px;
+    padding-top: 10px;
+}
+
