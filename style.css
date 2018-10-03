@@ -1,0 +1,1025 @@
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    height: 650px;
+    display: flex;
+}
+
+.header .img_head{
+
+    width: 35%;
+    height: 100%;
+    background-image: url(img/main1.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.header .li_cibo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.header .li_cibo .menu{
+    margin-top: 50px;
+}
+
+.header .li_cibo .menu hr{
+    height: 0.3px;
+    background-color: rgb(141, 163, 106);
+    margin: 0;
+}
+
+
+.header .li_cibo .menu .contex_menu{
+    margin:0;
+    padding: 0;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 300;
+    
+}
+
+.header .li_cibo .menu .contex_menu .word{
+    font-size: 150%;    
+    padding-right: 50px;
+    font-weight: 500;
+    display: inline-block;
+    color: #657955;
+    margin: 0;
+}
+
+
+
+.header .li_cibo .menu .contex_menu li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 5px;  
+    transition: all 0.4s;
+}
+
+.header .li_cibo .menu .contex_menu li:hover{
+    background-color: rgb(212, 250, 189);
+}
+
+.header .li_cibo .menu .contex_menu li a{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+    font-size: 80%;
+}
+
+
+.header .icon_menu{
+    margin: 65px 10px 0 10px;
+}
+
+.header .li_cibo .menu .contex_menu_1{
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Yeseva One', cursive;
+    padding-right: 50px;
+
+}
+
+.header .li_cibo .menu .contex_menu_1 li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    border-right: 1px solid #7b8d6c;
+    
+}
+
+
+.header .li_cibo .menu .contex_menu_1 li a{
+    text-decoration: none;
+    color: #909090;
+    font-size: 110%;
+    transition: all 0.4s;
+    padding: 5px;
+    
+}
+
+.header .li_cibo .menu .contex_menu_1 li a:hover{
+    background-color: rgb(221, 243, 205);
+}
+
+
+.image_menu{
+    width: 100%;
+    display: none;
+    justify-content: flex-end;
+    
+}
+
+.image_menu .icon{
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+
+
+
+.main_head .title{
+    background-image: url(img/2.jpg);
+    background-size: cover;
+    display: inline-block;
+    margin-left: 105%;
+    margin-top: 210px;
+    width: 550px;
+    
+    
+}
+
+
+@media only screen and (max-width: 1030px) {
+
+    .header .li_cibo .menu .contex_menu_1 li{
+        padding: 0;
+    }
+    .header .li_cibo .menu .contex_menu li{
+        padding: 0;
+        margin-right: 7px;
+    }
+
+    .header .li_cibo .menu .contex_menu .word{
+        padding-right: 10px;
+    }
+    
+    .main_head .title{
+        width: 450px;
+    }
+}
+
+
+
+.header .title h1{
+    font-size: 110px;
+    margin: 0;
+    color: #000;
+    background: #fff;
+    mix-blend-mode: lighten;
+    
+}
+
+.color1{
+    background-color: rgba(15, 15, 15, 0.589);
+    width: 100%;
+    height: 100%;
+}
+
+.adap_text{
+    margin-top: -200px;
+    width: 100%;
+    background-image: url(img/main1-2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70px;
+    display: none;
+
+}
+.adap_text h2{
+    font-size: 250%;
+    color: rgb(239, 241, 240);
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.contex-menu{
+    display: none;
+    width: 760px;
+
+}
+
+.contex-menu .menu-ad{
+
+    width: 300px;
+    height: 450px;
+    background-color: rgb(227, 236, 217);
+    position: absolute;
+    top: calc(50% - 200px);
+    left: calc(50% - 150px); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.contex-menu .menu-ad h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(108, 116, 104);
+    font-weight: bold;
+    border-bottom: 2px solid rgb(97, 104, 93);
+}
+
+.contex-menu .menu-ad .text-3{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(192, 206, 182);
+    margin-top: 20px;
+    transition: all 0.7s;
+
+}
+
+.contex-menu .menu-ad .text-3:hover{
+    background-color: #4A4A4A;
+}
+
+.contex-menu .menu-ad .text-3 a{
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 760px) {
+
+
+    .header .img_head{
+        width: 100%;
+        height: 300px;
+        margin-top: 100px;
+    }
+
+    .adap_text{
+        display: block;
+    }
+
+    .main_head .title{
+        display: none;
+    }
+    
+    .header .li_cibo{
+        display: none;
+    }
+
+    .image_menu{
+        display: flex;
+    }
+    
+    
+
+}
+
+
+
+
+.block{
+    margin: 0 auto;
+    width: 700px;
+    display: flex;
+    position: relative;
+    padding-top: 150px;
+}
+
+.block .text{
+
+   
+    padding: 30px;
+    width: 320px;
+    height: 400px;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.56);
+    text-align: justify;
+    z-index: 1;
+    animation-name: bounceInLeft;
+    animation-duration: 2s;
+    
+}
+
+.block .img_1{
+    background-image: url(img/4.jpg);
+    background-size: cover;
+    background-position: center;   
+    width: 450px;
+    height: 280px;
+    z-index: 2;
+    margin-left: -230px;
+    margin-top: 250px;
+}
+
+.block .saldo{
+    width: 170px;
+    height: 210px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    margin-left: -50px;
+    margin-top: 180px;
+    animation-name: bounceInRight;
+    animation-duration: 2s;
+  
+}
+
+
+.block .saldo p{
+    font-family: 'Great Vibes', cursive;
+    font-size: 250%;
+}
+
+.block .img_2{
+
+   margin-right: 20px;
+   margin-top: -30px;
+   animation-name: bounceInLeft;
+   animation-duration: 2s;
+}
+
+@media only screen and (max-width: 810px){
+
+    .block .img_2{
+        display: none;
+    }
+
+    .block{
+        flex-direction: column;
+        width: 410px;
+        align-items: center;
+       
+    }
+
+    .block .saldo{
+        margin: 0;
+        width: 110px;
+        height: 150px;
+        margin-bottom: 230px;
+        margin-top: -320px;
+        margin-left: 260px;
+
+        
+    }
+    .block .img_1{
+        margin: 0;
+        width: 290px;
+        height: 240px;
+    }
+    .block .text{
+        width: 290px;
+        height: 360px;
+        margin-bottom: 20px;
+    }
+    .block .saldo p{
+        font-size: 150%;
+        font-weight: bold;
+    }
+
+}
+
+
+
+
+.product .prod{
+    margin-top: 120px;
+    border-left: 3px solid #657955;
+    padding-left: 15px;
+}
+
+.product .prod h3{
+    font-size: 130%;
+}
+
+.product .prod p{
+    color:  #657955;
+}
+
+
+
+.product .food{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.product .food .im_1{
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.56);
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+    
+}
+
+@keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to { 
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.product .food .im_1:hover {
+    animation-name: rotate; 
+    animation-duration: 2s; 
+    
+    
+}
+
+.main_prod{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    align-items: center;
+}
+.main_prod .text_bl{
+    width: 250px;
+    text-align: center;
+}
+
+.head_2{
+    display: flex;
+    margin-top: 50px;
+}
+
+.head_2 .hd{
+    width: 50%;
+    height: 400px;
+    
+}
+
+.head_2 .hd-2 .tit{
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.56);
+    background-color: rgb(226, 228, 214);
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: -100px;
+    
+}
+
+.head_2 .hd-2 .tit h2{
+    color: #537358;
+    font-size: 250%;
+    font-family: 'Yeseva One', cursive;
+}
+
+.head_2 .hd-2{
+    width: 100%;
+    height: 400px;
+    background-image: url(img/det.jpg);
+    background-size: cover;
+    background-position: center;
+  
+}
+
+.blog .blog-1{
+    margin-top: 120px;
+    border-left: 3px solid #657955;
+    padding-left: 15px;
+}
+.blog .blog-1 h3{
+    font-size: 90%;
+}
+
+.blog .blog-1 h2{
+    font-size:100%;
+    font-weight: bold;
+}
+
+
+.eco{
+    margin-top: 150px;
+    width: 100%;
+    height: 400px ;
+    display: flex;
+    justify-content: center;
+}
+
+.eco .bl_eco{
+    width: 700px;
+    height: 100%;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.eco .bl_eco img{
+    margin-top: -100px;
+}
+
+.eco .bl_eco .blog-text{
+    width: 100%;
+}
+
+.eco .bl_eco .blog-text h3{
+    border-left: 2px solid rgb(107, 126, 91);
+    font-size:  110%;
+    padding: 5px;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+
+.eco .bl_eco .blog-text .p-text{
+    display: flex;
+    justify-content: center;
+}
+
+
+.eco .bl_eco .blog-text p{
+    margin: 50px;
+}
+
+@media only screen and (max-width: 780px){
+
+    .eco .bl_eco .blog-text p{
+        margin: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 520px){
+
+    .eco .bl_eco .blog-text p{
+        margin: 15px;
+    }
+
+}
+
+.eco .bl_eco .tit-eco{
+    margin-top: 100px;
+    border-top: 1px solid rgb(62, 70, 52);
+    border-bottom: 1px solid rgb(62, 70, 52);
+    font-family: 'Yeseva One', cursive;
+    color: #537358;
+    padding: 5px;
+}
+
+
+
+
+.main-main{
+    margin-top: 150px;
+    font-family: 'Yeseva One', cursive;
+}
+
+.main{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.main .block-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .block-1 .img-1{
+    width: 200px;
+    height: 200px;
+    background-image: url(img/avocado.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main .block-1 .img-2{
+    width: 200px;
+    height: 200px;
+    background-image: url(img/avokado_1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main .text-block{
+    width: 470px;
+    height: 140px;
+    box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.39);
+    background-color: #fff;
+    margin-top: -170px;
+    display: flex;
+}
+
+.main .main-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.number{
+    width: 55px;
+    height: 55px;
+    background-color: rgb(241, 238, 238);
+    box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+
+}
+
+
+.main .text-block .ht{
+    width: 350px;
+    
+}
+
+.main .text-block .ht h1{
+    font-size: 120%;
+    font-weight: bold;
+    color: rgb(85, 85, 85);
+    letter-spacing: 2px;
+    margin: 10px;
+}
+
+.main .text-block .ht p{
+    font-size: 90%;
+    color: rgb(54, 54, 54);
+    text-align: justify;
+}
+
+.main-1 .bl-2 .ht-2{
+    padding: 10px;
+    width: 150px;
+}
+
+.main-1 .bl-2 .ht-2 p {
+    font-size: 90%;
+    color: rgb(75, 75, 75);
+}
+
+.main-1 .bl-2 .ht-2 h1{
+    font-size: 100%;
+    font-weight: bold;
+    color: rgb(85, 85, 85);
+    letter-spacing: 2px;
+    margin: 10px;
+}
+
+
+.number p{
+    font-size: 200%;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    color: rgb(180, 171, 171)
+
+}
+
+.main-1{
+    width: 700px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+
+
+
+.main-1 .bl-2{
+    width: 300px;
+    height: 180px;
+    box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.39);
+    display: flex;
+    animation-name: fadeInLeft;
+    animation-duration: 2s;
+  
+}
+
+
+
+.main-1 .img-3{
+    background-image: url(img/avoc-ado.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 230px;
+}
+
+
+
+@media only screen and (max-width: 800px){
+
+    .main{
+        width: 400px;
+        
+    }
+    
+
+    .main .text-block .ht{
+        width: 230px;
+        
+    }
+
+    .main .block-1{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main .block-1 .img-1{
+        width: 300px;
+        height: 200px;
+        margin: 15px;
+       
+    }
+    
+    .main .block-1 .img-2{
+        width: 300px;
+        height: 200px;
+        margin: 15px;
+        
+    }
+    
+    .main .text-block{
+        width: 350px;
+        margin-top: -300px;
+        animation-name: fadeInRight;
+        animation-duration: 3s;
+    }
+
+    .main-1{
+        width: 400px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+
+
+.basis{
+    margin-top: 150px;
+    
+}
+
+.style {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.style .con-cer .cercle{
+    width: 100px;
+    height: 100px;
+    background-image: url(img/1.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.style .con-cer1 .cercle1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(164, 204, 138);
+    border-radius: 50%;
+}
+
+.style .con-cer2 .cercle2{
+    width: 100px;
+    height: 100px;
+    background-image: url(img/7.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+
+.style .con-cer1{
+    margin-right: 45px;
+    
+    
+}
+
+.style .con-cer{
+    margin-right: 45px;
+    
+}
+
+.style .main-cercle{
+    display: flex;
+    
+}
+
+.main-cercle p{
+    padding-left: 15px;
+}
+
+.style .tioi{
+    width: 200px;
+    margin-right: 70px;
+    padding: 10px;
+    
+}
+
+
+.style .tioi h1{
+    font-family: 'Yeseva One', cursive;
+}
+
+
+@media only screen and (max-width: 800px){
+
+    
+
+    .style .main-cercle{
+        flex-direction: column;
+        
+    }
+
+    .style {
+        width: 400px;       
+        flex-direction: column;
+        align-items: center;
+        border-left: none;
+        border-bottom: none;
+        
+    }
+
+    .basis{
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+        
+    }
+
+    
+}
+
+
+
+
+
+#page2, #page3, #page4 {
+
+    display: none;
+    
+    
+}
+
+.main-ajax{
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 130px;
+}
+
+.main-ajax .menu-ajax{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-ajax .menu-ajax a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 95%;
+    transition: all 0.5s;
+    
+}
+
+.main-ajax .menu-ajax a:hover{
+    background-color: rgb(220, 238, 199);
+}
+
+.main-ajax .content-ajax{
+    margin-top: 40px;
+    background-color: rgb(220, 238, 199);
+    padding: 20px;
+    
+   
+}
+
+.main-ajax .content-ajax h1{
+    color: rgb(63, 63, 63);
+    text-align: center;
+    font-size: 150%;
+}
+
+.main-ajax .content-ajax p{
+    line-height: 30px;
+    padding: 15px;
+    text-align: justify;
+    color: rgb(63, 63, 63);
+}
+
+.main-ajax .content-ajax hr{
+    width: 150px;
+    height: 1px;
+    background-color: rgb(63, 134, 42);
+}
+
+
+
+
+.footer .img-footer {
+    width: 100%;
+    display: flex;
+    margin-top: 120px;
+
+}
+
+.footer .img-footer .i-1 {
+    width: 100%;
+    height: 200px;
+    background-image: url(img/footer1.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.footer .img-footer .i-2 {
+    width: 100%;
+    height: 200px;
+    background-image: url(img/footer2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.footer .img-footer .i-3 {
+    width: 100%;
+    height: 200px;
+    background-image: url(img/footer4.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.footer .img-footer .i-4 {
+    width: 100%;
+    height: 200px;
+    background-image: url(img/footer3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+
+.more{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.more-photo {
+    background-color: rgb(161, 204, 145);
+    width: 250px;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    height: 50px;
+    margin-top: -100px;
+    transition: all 0.5s;
+}
+
+.more-photo:hover{
+    background-color: rgb(124, 156, 112);
+}
+
+.more-photo p{
+    font-size: 110%;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.more-photo img{
+    margin-left: 25px;
+    margin-right: 15px;
+}
+
+
+.sibo-sano  .h-sibo{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    
+}
+
+.sibo-sano  .h-sibo h1{
+    font-size: 180%;
+}
+
+.text-footer{
+    background-color: rgb(217, 228, 199);
+}
+
+.sibo-sano{
+    padding: 40px;
+
+}
